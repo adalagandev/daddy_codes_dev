@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<h2>Variables Lesson - 0</h2>
+<p id="message_container"></p>
+
+<script>
+    let age = 25; // declare & initialize variable age
+    let message; //declare variable message
+
+    // process variables based on the need of the logic
+    if (age >= 21) {
+        message = "You're eligible to purchase alcoholic products.";
+    } else {
+        message = "Unfortunately, you are prohibited to purchase alcoholic products.";
+    }
+
+    //Use message variable so that the output will display its contents.
+    document.getElementById("message_container").innerHTML = message;
+
+</script>
+
+</body>
+
+</html>
